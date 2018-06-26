@@ -65,7 +65,7 @@ void sendBeacon(char* ssid) {
     delay(1);
 }
 
-void AssholeNeighbor() {
+void ssidTest() {
   sendBeacon("01 - Never");
   sendBeacon("02 - Gonna");
   sendBeacon("03 - Give");
